@@ -1,0 +1,40 @@
+// Basic declaration of array in javascript
+// Array strores the multiple type of data in javascript with dynamic size no need to mentioned the size its automatically upgrade.
+
+// Without creating object direct declaration.
+let stringValueArray = ["Nikhil", "Gurav"];
+
+// With creating object 
+/* There is two method in creating object  
+1. Put value in the constructor 
+2. using object methods like (push, pop, etc)
+*/
+
+let numberArray = new Array();
+numberArray.push(1)
+console.log(numberArray);
+
+let numberArray2 = new Array(1,2,3);
+console.log(numberArray2);
+
+/* Slice and splice methods in javascript
+
+Basic differece between slice and splice ->
+In slice it give you element from between entered range from base array without manupulating the orginal array.
+In splice it give you element from between entered range from base array with manupalatin the original array.
+
+In short -> slice give value without removing original elements from array.
+        -> splice give value but remove original elements from array.
+*/
+
+let arrayForSlice = [1, 2, 3, 4, 5];
+
+// Take one array for stroe the slice applied method
+const resultOfSlice = arrayForSlice.slice(1, 3);
+console.log(resultOfSlice);
+
+// Take one array for stroe the splice applied method
+const resultOfSplice = arrayForSlice.splice(1, 3);
+console.log(resultOfSplice);
+
+
