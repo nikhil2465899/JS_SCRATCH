@@ -37,4 +37,21 @@ console.log(resultOfSlice);
 const resultOfSplice = arrayForSlice.splice(1, 3);
 console.log(resultOfSplice);
 
+// Sort the array
+const sortedArray = arrayForSlice.sort((a,b)=>a-b);
+console.log(sortedArray);
 
+// Shift and unshift the array element
+/* Shift ->  method returns the value that was "shifted out" 
+   unShift -> method that add the new element in begining of array
+*/
+
+let arrayForShift =  ["adidas", "nike" , "puma"]
+console.log(arrayForShift);
+// Shift the element from array and store the shifted array element into below variable
+ let shiftedElement = arrayForShift.shift();
+console.log(shiftedElement);
+
+// Now unshift the array element means replace new element at the first index.
+arrayForShift.unshift("Benetton");
+console.log(arrayForShift);
