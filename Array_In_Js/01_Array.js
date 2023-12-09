@@ -55,3 +55,12 @@ console.log(shiftedElement);
 // Now unshift the array element means replace new element at the first index.
 arrayForShift.unshift("Benetton");
 console.log(arrayForShift);
+
+// Merge two array
+let arrayExampleOneForMerge = ["Adidas","nike","Puma"];
+let arrayExampleTwoForMerge = ["Benetton", "Allen Solly"]
+
+let resultOfMergeArray = Array.prototype.concat(arrayExampleOneForMerge, arrayExampleTwoForMerge);
+console.log(resultOfMergeArray);
+
+// In array you may get one fuction that is prototype thats contain various methods implement with array.
