@@ -64,3 +64,17 @@ let resultOfMergeArray = Array.prototype.concat(arrayExampleOneForMerge, arrayEx
 console.log(resultOfMergeArray);
 
 // In array you may get one fuction that is prototype thats contain various methods implement with array.
+
+const arrayForReverse = [1,2,3,4,5];
+
+// For reverse the array use predefined funtion array.reverse()
+const resultantArray = arrayForReverse.reverse()
+
+/* Some ways to print the array element foreach and direct in array format */
+// Foreach way
+resultantArray.forEach(element => {
+        console.log(element);
+});
+
+// Direct way 
+console.log(resultantArray);
