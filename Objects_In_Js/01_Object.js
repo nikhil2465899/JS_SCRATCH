@@ -66,3 +66,24 @@ console.log(freezeTheObject.id); // Still print the id= 5;
 
 // Return true becaue object is froozen 
 console.log(Object.isFrozen());
+
+// Use of symbol key in objects
+
+/* Symbol is use to make unique variables data 
+ if two variable contains same value but variables declared with symbol then they will be uniquely
+*/
+const symbolFirst = Symbol("Nikhil");
+const symbolSecond = Symbol("Nikhil");
+
+const result = symbolFirst === symbolSecond;
+console.log(result); // Is give false 
+
+// Creating symbols
+const mySymbol = Symbol('description');
+
+// Using symbols as object keys
+const objectForSymbol = {
+  [mySymbol]: 'Unique'
+};
+
+console.log(objectForSymbol[mySymbol]);
