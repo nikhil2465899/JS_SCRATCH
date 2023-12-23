@@ -16,3 +16,7 @@ console.log(objestForDestructure.id); // print the value 1
 // De_structure the object
 const {id} = objestForDestructure;
 console.log(id);
+
+const{name} = objestForDestructure;
+console.log(name);
+
