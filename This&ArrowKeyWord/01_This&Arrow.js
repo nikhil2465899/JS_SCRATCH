@@ -39,3 +39,24 @@ const nonParameterisedFunction = () => {
 }
 
 nonParameterisedFunction()
+
+/* 
+There are return statements rule
+1] Implicit return 
+2] Explicit return
+*/
+
+// Implicit example.
+const implicitReturnFunction = (num1, num2)=> (num1+num2);
+console.log(implicitReturnFunction(5,2)); // Print the function 
+
+// Explicit example
+const explicitReturnFunction = (num1, num2)=> {
+    return num1 + num2;
+}
+console.log(explicitReturnFunction(5,3)); // Print the function 
+
+// You want to return the object then see below example
+const returnObject = ()=>({username:"nik"});
+console.log(returnObject());
+// Note -> you have to use round braces for return the object that is mandatory
