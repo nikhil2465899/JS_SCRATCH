@@ -10,7 +10,7 @@ and retrieve data in a way that's more flexible than using plain objects.
 let mapObject  = new Map();
 
 // So we need to add the value in that object then we have to use the set method
-mapObject.set("1","Nikhli");
+mapObject.set("1","Nikhil");
 mapObject.set('2','Gurav');
 console.log(mapObject.get('1')); // Get the value from object 
 
@@ -21,6 +21,6 @@ console.log(mapObject.has('1')); // returns true
 mapObject.delete('1');
 
 // Print the all values from object using foreach loop
-mapObject.forEach((key, value) =>{
-console.log(`${key} and ${value}`);
+mapObject.forEach((value, key) =>{
+console.log(`${key} - ${value}`);
 });
