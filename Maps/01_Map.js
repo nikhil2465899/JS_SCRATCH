@@ -24,3 +24,8 @@ mapObject.delete('1');
 mapObject.forEach((value, key) =>{
 console.log(`${key} - ${value}`);
 });
+
+// Another way to print the value of map object
+for (const iterator of mapObject) {
+ console.log(iterator);   
+}
