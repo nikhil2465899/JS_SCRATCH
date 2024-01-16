@@ -29,3 +29,24 @@ console.log(`${key} - ${value}`);
 for (const iterator of mapObject) {
  console.log(iterator);   
 }
+
+
+/*
+Concept map:-
+The .map() method is a versatile and powerful tool in JavaScript, 
+often used for transforming data in arrays and creating new arrays based on the original data.
+
+for example you have work on array and you need to change the array value without changing the original one 
+then you can use the map method.
+
+*/
+const numberArray = [1,2,3,4,5,6];
+
+// Implicit return 
+const numbersObject = numberArray.map((Element)=> Element * 2);
+
+// Explicit return 
+const numbersObjectForExplicit = numberArray.map((element)=>{
+return element*2;
+})
+console.log(numbersObjectForExplicit)
