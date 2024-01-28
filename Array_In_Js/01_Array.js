@@ -78,3 +78,6 @@ resultantArray.forEach(element => {
 
 // Direct way 
 console.log(resultantArray);
+
+// To convert the html collection list or any other list into array the use below syntax
+Array.from(); // In round parenthesis enter the list 
