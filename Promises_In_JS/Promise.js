@@ -53,4 +53,7 @@ console.log(userDetails.Club);
 }).catch((error)=>{
 // Print the error if occured
 console.log(error);
+}).finally(function(){
+// Here is finally block will be print in any reason.
+console.log("Finally block is worked");
 });
