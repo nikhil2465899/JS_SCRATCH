@@ -5,8 +5,8 @@ this.rating = rating;
 return this
 }
 
-let DeatilsOfBrand = new brand("Ferrari",8);
-console.log(DeatilsOfBrand.constructor); // Gives the name of constructor
+let DetailsOfBrand = new brand("Ferrari",8);
+console.log(DetailsOfBrand.constructor); // Gives the name of constructor
 
 //Check DetailsOfBrand is instnace of brand class
-console.log(DeatilsOfBrand instanceof brand); // If it has then return true.
+console.log(DetailsOfBrand instanceof brand); // If it has then return true.
