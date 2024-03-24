@@ -10,3 +10,10 @@ return stringTwo.trim().length;
 
 // After use getLength function its return the true length 
 console.log(getLength(stringOne));
+
+// Try another example
+let stringTwo = "Hello     ";
+// get length without using custom method
+console.log(stringTwo.length); // It gives the length 10
+// Now use the custom function
+console.log(getLength(stringTwo)); // It gives the length 5
