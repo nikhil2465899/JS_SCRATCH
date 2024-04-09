@@ -80,4 +80,8 @@ resultantArray.forEach(element => {
 console.log(resultantArray);
 
 // To convert the html collection list or any other list into array the use below syntax
-Array.from(); // In round parenthesis enter the list 
+// Array.From method is used for the make any object to iterable format
+const stringObject = "nikhil";
+const result = Array.from(stringObject); // In round parenthesis enter the list 
+
+console.log(result);
