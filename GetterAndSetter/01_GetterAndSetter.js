@@ -18,5 +18,28 @@ class Details{
       */  
 }
 
+class Details2{
+    constructor(Name, Surname){
+        this.Name = Name;
+        this.Surname = Surname;
+    }
+
+    set Name(_name){
+        this._name = _name;
+    }
+    set Surname(_Surname){
+        this._Surname = _Surname;
+    }
+
+    get Name(){
+        return `Name is:${this._name}`;
+    }
+    get Surname(){
+        return `Surname is:${this._Surname}`;
+    }
+}
 const details = new Details("Nikhli", 23);
+const details2 = new Details2("Nik","Gurav");
 console.log(details.Name);
+
+console.log(details2.Name, details2.Surname);
